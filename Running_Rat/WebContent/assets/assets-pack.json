@@ -1,0 +1,213 @@
+{
+  "level": [
+    {
+      "type": "spritesheet",
+      "key": "tile_set",
+      "url": "assets/tilemap/tile_set.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "bgg540",
+      "url": "assets/images/mbg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/images/bg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "music1",
+      "urls": ["assets/music/music1.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "atlas",
+      "key": "enemy1",
+      "textureURL": "assets/atlas/cat.png",
+      "atlasURL": "assets/atlas/cat.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "enemy2",
+      "textureURL": "assets/atlas/enemy22.png",
+      "atlasURL": "assets/atlas/enemy22.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "water",
+      "url": "assets/images/water.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "pro_test",
+      "url": "assets/tilemap/project.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "tileset",
+      "url": "assets/tilemap/tileset.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "hero",
+      "textureURL": "assets/atlas/rat.png",
+      "atlasURL": "assets/atlas/rat.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "pri",
+      "textureURL": "assets/atlas/pri.png",
+      "atlasURL": "assets/atlas/pri.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "spike",
+      "url": "assets/images/spikesLow.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "water2",
+      "url": "assets/images/water2.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "gover",
+      "urls": ["assets/music/gover.ogg"],
+      "autoDecode": true
+    }
+  ],
+  "start": [
+    {
+      "type": "image",
+      "key": "mstart",
+      "url": "assets/images/mstart.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mstory",
+      "url": "assets/images/mstory.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mteam",
+      "url": "assets/images/mteam.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "music",
+      "urls": ["assets/music/music1.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "image",
+      "key": "s1540",
+      "url": "assets/images/1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s2540",
+      "url": "assets/images/2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s3540",
+      "url": "assets/images/3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s4540",
+      "url": "assets/images/s4.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s5540",
+      "url": "assets/images/s5.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "g_over",
+      "url": "assets/images/gover.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "menu",
+      "url": "assets/images/home.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "re",
+      "url": "assets/images/re.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "goverbg",
+      "url": "assets/images/goverbg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "story",
+      "urls": ["assets/music/story.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "image",
+      "key": "team",
+      "url": "assets/images/team.png",
+      "overwrite": false
+    }
+  ],
+  "preload": [{
+    "type": "image",
+    "key": "loading",
+    "url": "assets/images/loading.png",
+    "overwrite": false
+  }],
+  "meta": {
+    "generated": "1514200857326",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
